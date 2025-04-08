@@ -133,6 +133,7 @@ h1 {
   position: absolute;
   bottom: -10px;
   left: 2px;
+  opacity: 70%;
   z-index: 7;
 }
 p,
@@ -407,11 +408,12 @@ footer i:nth-of-type(2) {
   border: 2px solid white;
   border-radius: 10px;
 }
-footer i:last-of-type {
+footer a:last-of-type i {
   content: "\f151";
   position: fixed;
   font-size: 35px;
   color: #f56429;
+  top: unset;
   right: -9.3px;
   bottom: 15px;
   padding: 0.5rem;
@@ -433,16 +435,15 @@ footer i:last-of-type {
     right: 0px;
     z-index: 999;
   }
-  footer i:last-of-type {
+  footer a:last-of-type i {
     right: 0px;
     z-index: 999;
   }
   .underline {
-    bottom: unset;
-    left: unset;
+    bottom: -16px;
+    /* left: unset; */
+    /* bottom: unset; */
     width: 512px;
-    top: 60px;
-    right: 160px;
   }
 }
 
@@ -471,12 +472,15 @@ footer i:last-of-type {
     right: 0px;
     z-index: 999;
   }
+  #contenitoreUnderline {
+    position: relative;
+  }
   .underline {
     bottom: unset;
     left: unset;
     width: 512px;
-    top: 60px;
-    right: 160px;
+    top: 63px;
+    right: 0px;
   }
 }
 
