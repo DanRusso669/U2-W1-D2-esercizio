@@ -128,6 +128,12 @@ h1 {
   position: relative;
 }
 
+#contenitoreUnderline {
+  display: inline-block;
+  position: relative;
+  color: salmon;
+}
+
 .underline {
   width: 366px;
   position: absolute;
@@ -472,9 +478,7 @@ footer a:last-of-type i {
     right: 0px;
     z-index: 999;
   }
-  #contenitoreUnderline {
-    position: relative;
-  }
+
   .underline {
     bottom: unset;
     left: unset;
